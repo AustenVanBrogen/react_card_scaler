@@ -1,0 +1,18 @@
+.cardBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(4,4);
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+.cardBox:hover{
+    color:aquamarine;
+}
+
+p{
+    text-align: center;
+    /* color: white; */
+}
