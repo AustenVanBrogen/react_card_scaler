@@ -1,0 +1,17 @@
+.cardStyle1{
+    padding: 20px;
+    transform: scale(0.5, 0.5) translate(-90%, -115%);   
+    background-color:blueviolet;
+}
+
+.cardStyle2{
+    padding: 20px;
+    background-color:blueviolet;
+    transform: translate(0%, 0%) scale(1, 1);
+}
+
+.card:hover{
+    /* background-color:cornflowerblue;
+    color:azure;
+    transform: translate(0%, 0%) scale(0.5, 0.5); */
+}

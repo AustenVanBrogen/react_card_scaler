@@ -3,7 +3,7 @@ import './CardBox.css';
 const CardBox= ({children}) =>{
     return <div className='cardBox'>
         <p>
-            Greetings
+            {children}
         </p>
         </div>
 }
