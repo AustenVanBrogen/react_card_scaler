@@ -10,7 +10,14 @@ function App() {
   return (
     <div className="App">
         <CardBox> 
-          <Card></Card>
+          <div>
+            <Card cardID='cardStyle1' cardText='Hello'></Card>
+            <Card cardID='cardStyle2' cardText='There'></Card>
+          </div>
+          <div>
+            <Card cardID='cardStyle3' cardText='General'></Card>
+            <Card cardID='cardStyle4' cardText='Kenobi'></Card>
+          </div>
         </CardBox>
     </div>
   )
