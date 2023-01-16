@@ -10,7 +10,7 @@
 
 .cardBox:hover{
     /* Will affect all text inside cardBox, including text from other components */
-    color:aquamarine;
+    /* color:aquamarine; */
     
 }
 
