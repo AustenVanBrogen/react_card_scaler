@@ -6,7 +6,6 @@ const CardBox= ({children}) =>{
 
     const [curCardInCenter, setCurCardInCenter] = useState(0);
     function passedFunction(number){
-        //console.log(number);
         if(curCardInCenter === number){
             setCurCardInCenter(0);
         }
@@ -17,7 +16,6 @@ const CardBox= ({children}) =>{
 
     return <div className='cardBox'>
         <p>
-            {/* {children} */}
             <div>
             <Card numID={1} cardID='cardStyle1' cardText='Hello' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
             <Card numID={2} cardID='cardStyle2' cardText='There' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
