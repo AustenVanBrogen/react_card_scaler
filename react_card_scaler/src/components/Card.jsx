@@ -16,15 +16,15 @@ function Card({numID, cardID, cardText, passedFunction, currentCard}){
     
     const changeStyle = () =>{
         if(currentCard === numID && cardStyle != 'centerStyle'){
-            setCardStyle('centerStyle');
+            setCardStyle('centerStyle genericCard');
         }
         else{
-            setCardStyle(cardID);
+            setCardStyle(`${cardID} genericCard`);
         }
 
     }
 
-    return <div className={cardStyle} onClick={handleClick}>
+    return <div className={cardStyle} id='card' onClick={handleClick}>
             <p> {cardText} </p>
         </div>
 }
