@@ -15,16 +15,16 @@ const CardBox= ({children}) =>{
       }
 
     return <div className='cardBox'>
-        <p>
+        <div>
             <div>
-            <Card numID={1} cardID='cardStyle1' cardText='Hello' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
-            <Card numID={2} cardID='cardStyle2' cardText='There' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
+            <Card className='cards' numID={1} cardID='cardStyle1' cardText='Hello' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
+            <Card className='cards' numID={2} cardID='cardStyle2' cardText='Hello' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
           </div>
           <div>
-            <Card numID={3} cardID='cardStyle3' cardText='General' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
-            <Card numID={4} cardID='cardStyle4' cardText='Kenobi' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
+            <Card className='cards' numID={3} cardID='cardStyle3' cardText='Hello' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
+            <Card className='cards' numID={4} cardID='cardStyle4' cardText='Hello' passedFunction={passedFunction} currentCard={curCardInCenter}></Card>
           </div>
-        </p>
+        </div>
         </div>
 }
 
